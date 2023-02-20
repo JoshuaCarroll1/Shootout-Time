@@ -15,11 +15,29 @@ body    {
 h1, h2  {
     letter-spacing: 3px;
     padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 40px;
+}
+
+h3  {
+    text-align: center;
+}
+
+p   {
+    background-color: #20262E;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 50px;
+    width: 200px;
+    font-size: 50px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .center {
     text-align: center;
 }
+
 
 
