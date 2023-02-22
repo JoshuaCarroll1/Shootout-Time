@@ -24,8 +24,9 @@ h3  {
 }
 
 p   {
-    background-color: #20262E;
+    background-color: #84D2C5;
     box-sizing: border-box;
+    border: 1px solid black;
     display: inline-flex;
     height: 50px;
     width: 200px;
@@ -40,8 +41,31 @@ p   {
 }
 
 button  {
-    background-color: #20262E;
-    color: #D9ACF5;
+    background-color: #84D2C5;
+    color: #434242;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+
+.goal   {
+    padding-left: 15px;
+    float: left;
+}
+
+.missed {
+    padding-right: 15px;
+    float: right;
+}
+
+button  {
+    font-size: 15px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.game-pic   {
+    background-image: ;
 }
 
 
