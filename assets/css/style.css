@@ -21,6 +21,7 @@ h1, h2  {
 
 h3  {
     text-align: center;
+    padding-bottom: 5rem;
 }
 
 p   {
@@ -51,22 +52,46 @@ button  {
 .goal   {
     padding-left: 15px;
     float: left;
+    text-transform: uppercase;
+    
 }
 
 .missed {
     padding-right: 15px;
     float: right;
+    text-transform: uppercase;
+
+    
+    
 }
 
 button  {
     font-size: 15px;
     margin: auto;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
-.game-pic   {
-    background-image: ;
+.score-area {
+    padding-bottom: 1rem;
 }
+
+.play-button    {
+    padding-bottom: 3rem;
+}
+
+#game-area  {
+    padding-bottom: 3rem;
+}
+
+.top-left   {
+    float: left;
+}
+
+.top-right   {
+    float: right;
+}
+
+
 
 
 
