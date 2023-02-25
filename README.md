@@ -2,7 +2,6 @@
 
 ## UX
 
-
 ### Colour Scheme
 
 Explain your colours and the colour scheme.
@@ -10,8 +9,6 @@ Explain your colours and the colour scheme.
 - `#00ABB3` used for primary text.
 - `#393E46` used for background.
 - `#434242` used for button background.
-- `#009FE3` used for secondary highlights.
-
 
 
 I used [colorhunt.co](https://colorhunt.co/) to generate my colour palette.
@@ -22,7 +19,11 @@ I used [colorhunt.co](https://colorhunt.co/) to generate my colour palette.
 ### Typography
 
 
-- [Montserrat](https://fonts.google.com/specimen/Righteous?query=righte) was used for the primary headers and titles.
+- [Righteous](https://fonts.google.com/specimen/Righteous?query=righte) was used for the primary headers and titles.
+
+- [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) was used for the buttons.
+
+- [Shadows into Light](https://fonts.google.com/specimen/Shadows+Into+Light) was used for the main heading.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
