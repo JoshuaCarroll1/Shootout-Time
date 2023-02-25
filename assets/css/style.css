@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *   {
     margin: 0;
@@ -10,6 +12,11 @@ body    {
     font-family: 'Righteous', cursive;
     background-color: #393E46;
     color: #00ABB3;
+    text-align: center;
+}
+
+h1  {
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h1, h2  {
@@ -20,8 +27,7 @@ h1, h2  {
 }
 
 h3  {
-    text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 p   {
@@ -37,32 +43,27 @@ p   {
     justify-content: center;
 }
 
-.center {
-    text-align: center;
+hr  {
+    background: solid black 1px
 }
+
 
 button  {
     background-color: #84D2C5;
     color: #434242;
     border: 1px solid black;
     border-radius: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
 }
 
 
 .goal   {
-    padding-left: 15px;
-    float: left;
     text-transform: uppercase;
-    
 }
 
 .missed {
-    padding-right: 15px;
-    float: right;
     text-transform: uppercase;
-
-    
-    
 }
 
 button  {
