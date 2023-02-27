@@ -92,6 +92,11 @@ button  {
     float: right;
 }
 
+img {
+    max-width: 90%;
+    height: auto;
+  }
+
 
 
 
