@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 let timer;
 let timerSeconds = 10;
 const countdown = document.getElementById("countdown");
