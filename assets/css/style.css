@@ -11,7 +11,7 @@
 body    {
     font-family: 'Righteous', cursive;
     background-color: #393E46;
-    color: #00ABB3;
+    color: #7DB9B6;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ h3  {
 }
 
 p   {
-    background-color: #84D2C5;
+    background-color: #0A2647;
     box-sizing: border-box;
     border: 1px solid black;
     display: inline-flex;
