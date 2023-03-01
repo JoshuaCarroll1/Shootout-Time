@@ -4,17 +4,21 @@ let timer;
 let timerSeconds = 10;
 const countdown = document.getElementById("countdown");
 const playBtn = document.getElementById("play");
+const goalSpan = document.getElementById("goal");
+const missedSpan = document.getElementById("missed");
+let goals = 0;
+let missed = 0;
 
 playBtn.addEventListener("click", timerSlot);
 
 function incrementGoal()    {
-    let oldScore = document.getElementById("goal").innerText;
-    document.getElementById("goal").innerText = ++oldScore;
+    goals++;
+    goalSpan.innerText = goals;
 }
 
 function incrementMiss()    {
-    let oldScore = document.getElementById("missed").innerText;
-    document.getElementById("missed").innerText = ++oldScore;
+    missed++;
+    missedSpan.innerText = missed;
 }
 
 function displayImage() {
