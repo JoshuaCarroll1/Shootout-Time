@@ -9,6 +9,7 @@ Explain your colours and the colour scheme.
 - `#00ABB3` used for primary text.
 - `#393E46` used for background.
 - `#434242` used for button background.
+- `#0A2647` used for countdown background.
 
 
 I used [colorhunt.co](https://colorhunt.co/) to generate my colour palette.
