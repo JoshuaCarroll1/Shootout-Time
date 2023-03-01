@@ -192,8 +192,7 @@ Use this space to discuss any differences between the local version you've devel
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [pngwing](https://w1.pngwing.com/pngs/661/459/png-transparent-american-football-sports-icon-design-black-and-white-line-circle-symmetry-area.png
-) | entire site | image | favicon on all pages |
+| [pngwing](https://w1.pngwing.com/pngs/661/459/png-transparent-american-football-sports-icon-design-black-and-white-line-circle-symmetry-area.png) | entire site | image | favicon on all pages |
 
 
 ### Acknowledgements
