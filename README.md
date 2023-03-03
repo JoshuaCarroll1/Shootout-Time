@@ -53,7 +53,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes1.JPG) |
+| Mobile | ![screenshot](documentation/wireframe1.JPG) |
 | Desktop | ![screenshot](documentation/wireframe2.JPG) |
 
 
