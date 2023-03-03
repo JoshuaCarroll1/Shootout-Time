@@ -93,8 +93,15 @@ button  {
 }
 
 img {
-    max-width: 90%;
+    max-width: 98%;
     height: auto;
+  }
+
+  @media screen and (min-width: 1150px) {
+    img {
+        max-width: 60%;
+        height: auto;
+      }
   }
 
 
