@@ -77,7 +77,11 @@ button  {
 }
 
 .play-button    {
-    padding-bottom: 3rem;
+    padding-bottom: 1 rem;
+}
+
+.restart-button    {
+    padding-bottom: 3 rem;
 }
 
 #game-area  {
