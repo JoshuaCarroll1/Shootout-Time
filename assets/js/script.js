@@ -13,6 +13,11 @@ let gameImg = document.getElementById("game-pic");
 
 playBtn.addEventListener("click", timerSlot);
 
+document.querySelector('.restart-button').addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
+
 function incrementGoal()    {
     goals++;
     goalSpan.innerText = goals;
