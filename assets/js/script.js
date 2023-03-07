@@ -10,13 +10,29 @@ let goals = 0;
 let missed = 0;
 const controlButtons = document.querySelectorAll(".control-buttons");
 let gameImg = document.getElementById("game-pic");
+const modal = document.querySelector(".modal");
+const information = document.querySelector(".information");
+const closeButton = document.querySelector(".close-button")
 
 playBtn.addEventListener("click", timerSlot);
+information.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+
 
 document.querySelector('.restart-button').addEventListener('click', function(){
     window.location.reload();
     return false;
   });
+
+  function toggleModal()    {
+    modal.classList.toggle("show-modal");
+  }
+
+  function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+  }
 
 function incrementGoal()    {
     goals++;
