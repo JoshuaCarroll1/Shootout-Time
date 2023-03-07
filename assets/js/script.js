@@ -55,26 +55,37 @@ function incrementMiss()    {
 }
 
 function randomAiDirection()  {
-    const aiChoice = math.floor(math.random() * 5 + 1);
+    const aiChoice = Math.floor(Math.random() * 5 + 1);
 
     switch (aiChoice) {
         case 1:
-            randomAiDirection = 'bottom-left';
+            computer = 'bottom-left';
             break;
         case 2:
-            randomAiDirection = 'bottom-right';
+            computer = 'bottom-right';
             break;
         case 3:
-            randomAiDirection = 'middle';
+            computer = 'middle';
             break;
         case 4:
-            randomAiDirection = 'top-left';
+            computer = 'top-left';
             break;
         case 5:
-            randomAiDirection = 'top-right';
+            computer = 'top-right';
             break;
+        }
+}
 
-    }
+function displayImage(e) {
+     user = e.target.id;
+     randomAiDirection();
+     document.getElementById("game-pic").src = `assets/images/${user}-${computer}.jpg`;
+
+     if (user==computer) {
+        incrementMiss();
+     } else{
+        incrementGoal();
+     }
 }
 
 
