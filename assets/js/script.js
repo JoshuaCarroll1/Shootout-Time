@@ -107,16 +107,16 @@ function timerSlot()    {
         countdown.innerText = timerSeconds;
         if (timerSeconds <= 0){
             clearInterval(timer);
+            endResult();
         }
     }, 1000);
 }
 
-function directionShot()    {
-
-}
 
 function endResult()    {
-
+    controlsArea.classList.add("hide");
+    countdown.classList.add("hide");
+    document.getElementById("game-pic").src = 'assets/images/pen-set.jpg';
 }
 
 function startGame()    {
