@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Shootout-Time</title>
 </head>
+
 <body>
     <!--Header-->
     <header>
         <h1>
-            Shootout Time 
+            Shootout Time
         </h1>
     </header>
 
     <!--Description-->
     <h3>You have 100 seconds to score as many Penalties as possible against our Goalkeeper!</h3>
 
-      <!--Modal-->
-      <button class="information">INFO</button>
-      <div class="modal">
-          <div class="modal-content">
-              <span class="close-button">&times;</span>
-              <h2>Shootout Time</h2>
-              <p>This game gives you 100 seconds to test your ability against our AI Goalkeeper to score as many as possible!</p>
-              <p>In the 100 seconds you can choose 5 different places to shoot and the goalkeeper will randomly select 1 of the 5 possible areas every shot.</p>
-          </div>
-      </div>
+    <!--Modal-->
+    <button class="information">INFO</button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Shootout Time</h2>
+            <p>This game gives you 100 seconds to test your ability against our AI Goalkeeper to score as many as
+                possible!</p>
+            <p>In the 100 seconds you can choose 5 different places to shoot and the goalkeeper will randomly select 1
+                of the 5 possible areas every shot.</p>
+        </div>
+    </div>
 
     <!--Play Button-->
     <div class="play-button">
@@ -39,51 +43,52 @@
         </button>
     </div>
 
-        <!--Restart Button-->
-    <div class="restart-button">
+    <!--Restart Button-->
+    <div class="restart-button hide">
         <button id="restart" class="btn-restart">
             RESTART
         </button>
     </div>
 
-        <!--Goals and missed Score Area-->
-    <div class="score-area">
+    <!--Goals and missed Score Area-->
+    <div class="score-area hide">
         <h3 class="goal">Goals Scored : <span id="goal">0</span></h3>
         <h3 class="missed">Missed chances: <span id="missed">0</span></h3>
     </div>
     <section class="game-area">
         <img id="game-pic" src="assets/images/pen-set.jpg" alt="image of goalpost">
-        </section>
-
-            <!--Countdown Timer-->
-    <h2 id="countdown">100s</h2>
-    </div>
-    <br>
-        <!--Controls area-->
-    <div id="controls-area">
-        <section class="controls">
-            <div id="top-row">
-        <button class="control-buttons" id="top-left">Top left</button>
-        <button class="control-buttons" id="top-right">Top right</button>
-    </div>
-        
-        <button class="control-buttons center" id="middle">Middle</button>
-        <br>
-    <div id="bottom-row">
-        <button class="control-buttons" id="bottom-left">Bottom left</button>
-        <button class="control-buttons" id="bottom-right">Bottom right</button>
-    </div>
     </section>
-    </div>
-</div>
+
+    <!--Countdown Timer-->
+    <h2 id="countdown" class="hide">100s</h2>
+
+    <br>
+    <!--Controls area-->
+    <section id="controls-area" class="hide">
+        <div class="controls">
+            <div id="top-row">
+                <button class="control-buttons" id="top-left">Top left</button>
+                <button class="control-buttons" id="top-right">Top right</button>
+            </div>
+
+            <button class="control-buttons center" id="middle">Middle</button>
+            <br>
+            <div id="bottom-row">
+                <button class="control-buttons" id="bottom-left">Bottom left</button>
+                <button class="control-buttons" id="bottom-right">Bottom right</button>
+            </div>
+        </div>
+    </section>
+
     <!--Footer-->
 
-<footer>
-    <br>
-    <hr>
-    <h3>©2023 Copyright</h3>
-</footer>
+    <footer>
+        <br>
+        <hr>
+        <h3>©2023 Copyright</h3>
+    </footer>
     <script src="https://kit.fontawesome.com/ca67bd5760.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
