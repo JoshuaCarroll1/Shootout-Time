@@ -1,5 +1,7 @@
 /* jshint esversion: 11 */
 
+
+/* Global Variables */
 let timer;
 let timerSeconds = 100;
 const countdown = document.getElementById("countdown");
@@ -32,33 +34,33 @@ information.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 
 
-restartBtn.addEventListener('click', function(){
+restartBtn.addEventListener('click', function () {
     window.location.reload();
-  });
+});
 
-  function toggleModal()    {
+function toggleModal() {
     modal.classList.toggle("show-modal");
-  }
+}
 
 window.addEventListener("click", windowOnClick);
 
-  function windowOnClick(event) {
+function windowOnClick(event) {
     if (event.target === modal) {
         toggleModal();
     }
-  }
+}
 
-function incrementGoal()    {
+function incrementGoal() {
     goals++;
     goalSpan.innerText = goals;
 }
 
-function incrementMiss()    {
+function incrementMiss() {
     missed++;
     missedSpan.innerText = missed;
 }
 
-function randomAiDirection()  {
+function randomAiDirection() {
     const aiChoice = Math.floor(Math.random() * 5 + 1);
 
     switch (aiChoice) {
@@ -77,19 +79,19 @@ function randomAiDirection()  {
         case 5:
             computer = 'top-right';
             break;
-        }
+    }
 }
 
 function displayImage(e) {
-     user = e.target.id;
-     randomAiDirection();
-     document.getElementById("game-pic").src = `assets/images/${user}-${computer}.jpg`;
+    user = e.target.id;
+    randomAiDirection();
+    gameImg.src = `assets/images/${user}-${computer}.jpg`;
 
-     if (user==computer) {
+    if (user == computer) {
         incrementMiss();
-     } else{
+    } else {
         incrementGoal();
-     }
+    }
 }
 
 
@@ -102,11 +104,11 @@ middle.addEventListener("click", displayImage);
 
 
 
-function timerSlot()    {
-    timer = setInterval(function() {
+function timerSlot() {
+    timer = setInterval(function () {
         timerSeconds--;
         countdown.innerText = timerSeconds;
-        if (timerSeconds <= 0){
+        if (timerSeconds <= 0) {
             clearInterval(timer);
             endResult();
         }
@@ -114,13 +116,13 @@ function timerSlot()    {
 }
 
 
-function endResult()    {
+function endResult() {
     controlsArea.classList.add("hide");
     countdown.classList.add("hide");
-    document.getElementById("game-pic").src = 'assets/images/pen-set.jpg';
+    gameImg.src = 'assets/images/pen-set.jpg';
 }
 
-function startGame()    {
+function startGame() {
     restartBtn.classList.remove("hide");
     scoreArea.classList.remove("hide");
     countdown.classList.remove("hide");
