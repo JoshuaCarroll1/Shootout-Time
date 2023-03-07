@@ -9,7 +9,6 @@ const goalSpan = document.getElementById("goal");
 const missedSpan = document.getElementById("missed");
 let goals = 0;
 let missed = 0;
-const controlButtons = document.querySelectorAll(".control-buttons");
 let gameImg = document.getElementById("game-pic");
 const modal = document.querySelector(".modal");
 const information = document.querySelector(".information");
@@ -40,6 +39,8 @@ restartBtn.addEventListener('click', function(){
   function toggleModal()    {
     modal.classList.toggle("show-modal");
   }
+
+window.addEventListener("click", windowOnClick);
 
   function windowOnClick(event) {
     if (event.target === modal) {
