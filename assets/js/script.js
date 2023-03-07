@@ -12,7 +12,17 @@ const controlButtons = document.querySelectorAll(".control-buttons");
 let gameImg = document.getElementById("game-pic");
 const modal = document.querySelector(".modal");
 const information = document.querySelector(".information");
-const closeButton = document.querySelector(".close-button")
+const closeButton = document.querySelector(".close-button");
+const topLeft = document.getElementById("top-left");
+const topRight = document.getElementById("top-right");
+const middle = document.getElementById("middle");
+const bottomLeft = document.getElementById("bottom-left");
+const bottomRight = document.getElementById("bottom-right");
+let user;
+let computer;
+
+
+
 
 playBtn.addEventListener("click", timerSlot);
 information.addEventListener("click", toggleModal);
@@ -67,21 +77,14 @@ function randomAiDirection()  {
     }
 }
 
-function displayImage() {
 
-}
+topLeft.addEventListener("click", displayImage);
+topRight.addEventListener("click", displayImage);
+bottomLeft.addEventListener("click", displayImage);
+bottomRight.addEventListener("click", displayImage);
+middle.addEventListener("click", displayImage);
 
-top-left.addEventListener("click", controls-area);
-top-right.addEventListener("click", controls-area);
-bottom-left.addEventListener("click", controls-area);
-bottom-right.addEventListener("click", controls-area);
-middle.addEventListener("click", controls-area);
 
-document.getElementById("game-pic").src = 'assets/images/$middle.jpg';
-document.getElementById("game-pic").src = 'assets/images/$bottom-left.jpg';
-document.getElementById("game-pic").src = 'assets/images/$top-left.jpg';
-document.getElementById("game-pic").src = 'assets/images/$bottom-right.jpg';
-document.getElementById("game-pic").src = 'assets/images/$top-right.jpg';
 
 
 function timerSlot()    {
