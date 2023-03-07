@@ -4,6 +4,7 @@ let timer;
 let timerSeconds = 100;
 const countdown = document.getElementById("countdown");
 const playBtn = document.getElementById("play");
+const restartBtn = document.querySelector('.restart-button');
 const goalSpan = document.getElementById("goal");
 const missedSpan = document.getElementById("missed");
 let goals = 0;
@@ -13,6 +14,7 @@ let gameImg = document.getElementById("game-pic");
 const modal = document.querySelector(".modal");
 const information = document.querySelector(".information");
 const closeButton = document.querySelector(".close-button");
+const controlsArea = document.getElementById("controls-area");
 const topLeft = document.getElementById("top-left");
 const topRight = document.getElementById("top-right");
 const middle = document.getElementById("middle");
@@ -20,18 +22,19 @@ const bottomLeft = document.getElementById("bottom-left");
 const bottomRight = document.getElementById("bottom-right");
 let user;
 let computer;
+const scoreArea = document.querySelector(".score-area");
 
 
 
 
-playBtn.addEventListener("click", timerSlot);
+
+playBtn.addEventListener("click", startGame);
 information.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 
 
-document.querySelector('.restart-button').addEventListener('click', function(){
+restartBtn.addEventListener('click', function(){
     window.location.reload();
-    return false;
   });
 
   function toggleModal()    {
@@ -114,4 +117,13 @@ function directionShot()    {
 
 function endResult()    {
 
+}
+
+function startGame()    {
+    restartBtn.classList.remove("hide");
+    scoreArea.classList.remove("hide");
+    countdown.classList.remove("hide");
+    controlsArea.classList.remove("hide");
+    playBtn.classList.add("hide");
+    timerSlot();
 }
