@@ -1,13 +1,17 @@
+/* fonts */ 
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/* Full window css */ 
 *   {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* body */ 
 body    {
     font-family: 'Righteous', cursive;
     background-color: #393E46;
@@ -15,6 +19,7 @@ body    {
     text-align: center;
 }
 
+/* Within body css */ 
 h1  {
     font-family: 'Shadows Into Light', cursive;
 }
@@ -47,29 +52,26 @@ hr  {
     background: solid black 1px
 }
 
-
+/* Button css*/ 
 button  {
     background-color: #84D2C5;
     color: #434242;
     border: 1px solid black;
     border-radius: 40px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 80px;
+    font-size: 25px;
+    padding: 1.5rem;
+    margin: auto;
+
 }
 
-
+/* ID and Class*/ 
 .goal   {
     text-transform: uppercase;
 }
 
 .missed {
     text-transform: uppercase;
-}
-
-button  {
-    font-size: 15px;
-    margin: auto;
-    padding: 1.5rem;
 }
 
 .score-area {
@@ -96,11 +98,13 @@ button  {
     float: right;
 }
 
+/* image css*/
 img {
     max-width: 98%;
     height: auto;
   }
 
+/* Responsiveness */
   @media screen and (min-width: 1150px) {
     img {
         max-width: 60%;

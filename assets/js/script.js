@@ -55,6 +55,19 @@ function displayImage() {
 
 }
 
+top-left.addEventListener("click", controls-area);
+top-right.addEventListener("click", controls-area);
+bottom-left.addEventListener("click", controls-area);
+bottom-right.addEventListener("click", controls-area);
+middle.addEventListener("click", controls-area);
+
+document.getElementById("game-pic").src = 'assets/images/$middle.jpg';
+document.getElementById("game-pic").src = 'assets/images/$bottom-left.jpg';
+document.getElementById("game-pic").src = 'assets/images/$top-left.jpg';
+document.getElementById("game-pic").src = 'assets/images/$bottom-right.jpg';
+document.getElementById("game-pic").src = 'assets/images/$top-right.jpg';
+
+
 function timerSlot()    {
     timer = setInterval(function() {
         timerSeconds--;
