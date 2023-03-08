@@ -37,7 +37,7 @@ h3  {
 }
 
 p   {
-    
+    font-size: 25px;
 }
 
 hr  {
@@ -125,7 +125,7 @@ button  {
     font-size: 10px;
     background-color: #FCC2FC;
     padding: 2rem 2rem;
-    width: 29rem;
+    width: 19rem;
 }
 
 .close-button   {
@@ -133,12 +133,12 @@ button  {
     width: 1rem;
     text-align: center;
     cursor: pointer;
-    background-color: #0A2647;
+    background-color: #ECF2FF;
     line-height: 1rem;
 }
 
 .close-button:hover {
-    background-color:  #655DBB;
+    background-color:  #E3DFFD;
 }
 
 .show-modal {
@@ -150,7 +150,7 @@ button  {
 
 /* image css*/
 #game-pic {
-    max-width: 98%;
+    max-width: 99%;
     height: auto;
     margin: 2em auto;
   }
@@ -166,6 +166,8 @@ button  {
   .hide {
     display: none;
   }
+
+
 
 
 
