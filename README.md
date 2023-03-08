@@ -10,6 +10,9 @@ Explain your colours and the colour scheme.
 - `#393E46` used for background.
 - `#434242` used for button background.
 - `#0A2647` used for countdown background.
+- `#FCC2FC` used for modal background.
+- `#ECF2FF` used for modal close button.
+- `#E3DFFD` used for modal close button hover.
 
 
 I used [colorhunt.co](https://colorhunt.co/) to generate my colour palette.
@@ -169,6 +172,8 @@ Use this space to discuss any differences between the local version you've devel
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools]( https://www.w3schools.com/howto/howto_js_countdown.asp) | countdown timer | how to make a countdown timer |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Team Tree House](https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button) | entire page | how to make a restart button |
+| [Sabe](https://sabe.io/tutorials/how-to-create-modal-popup-box) | entire page | how to create modals |
 
 ### Media
 
@@ -176,7 +181,7 @@ Use this space to discuss any differences between the local version you've devel
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [pngwing](https://w1.pngwing.com/pngs/661/459/png-transparent-american-football-sports-icon-design-black-and-white-line-circle-symmetry-area.png) | entire site | image | favicon on all pages |
-
+| Paint | images | mspaint | made all penalty images with paint |
 
 ### Acknowledgements
 
