@@ -50,11 +50,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
+| Desktop | ![screenshot](documentation/browser-chrome.png) | Works as expected |
+| Nest Hub | ![screenshot](documentation/responsive-nesthub.png) | Works as expected |
+
 
 ## Lighthouse Audit
 
@@ -72,31 +70,28 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| Home Page | | | | |
-| | Click on Info button | Redirection to modal page | Pass | |         BUTTONS
-| | Click on Home link in navbar | Redirection to Home page | Pass | |
-
+| Home Page | Click on Play button | Redirection to start game| Pass |  |
+| Home Page | Click on Info button | Redirection to modal page | Pass | |    
+| Home Page | Click on Restart button | Redirection to restart game| Pass |  |
+| Home Page | Click on top left button | Redirection to score/miss goal | Pass |  |
+| Home Page | Click on top right button | Redirection to score/miss goal | Pass |  |
+| Home Page | Click on bottom left button | Redirection to score/miss goal | Pass |  |
+| Home Page | Click on bottom right button | Redirection to score/miss goal | Pass |  |
+| Home Page | Click on middle button | Redirection to score/miss goal | Pass |  |
 
 ## User Story Testing
 
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to take penalties, so that I can score goals. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to choose any direction, so that I can score different goals. | ![screenshot](documentation/feature02.png) |
+| As a new site user, I would like to take penalties, so that I can score goals. | ![screenshot](documentation/feature02.png) |
+| As a new site user, I would like to choose any direction, so that I can score different goals. | ![screenshot](documentation/feature01.png) |
 | As a new site user, I would like to score as many goals as possible, so that I can get a high score. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to score more goals then before, so that I can see I am getting better. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to take penalties quicker, so that I can improve how many penalties I take in the 100 seconds. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to improve, so that I can beat my previous high score. | ![screenshot](documentation/feature06.png) |
+| As a returning site user, I would like to score more goals then before, so that I can see I am getting better. | ![screenshot](documentation/feature03.png) |
+| As a returning site user, I would like to take penalties quicker, so that I can improve how many penalties I take in the 100 seconds. | ![screenshot](documentation/feature02.png) |
+| As a returning site user, I would like to improve, so that I can beat my previous high score. | ![screenshot](documentation/feature03.png) |
 
 ## Bugs
-
-
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
-
-    ![screenshot](documentation/bug01.png)
-
-    - To fix this, I _____________________.
 
 
 ### GitHub **Issues**
