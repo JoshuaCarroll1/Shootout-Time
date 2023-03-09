@@ -52,6 +52,8 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/browser-chrome.png) | Works as expected |
 | Nest Hub | ![screenshot](documentation/responsive-nesthub.png) | Works as expected |
+| iPhone 12 | ![screenshot](documentation/responsive-iphone12.jpg) | Works as expected |
+
 
 
 ## Lighthouse Audit
