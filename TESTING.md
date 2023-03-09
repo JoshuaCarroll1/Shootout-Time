@@ -80,6 +80,8 @@ Defensive programming was manually tested with the below user acceptance testing
 | Home Page | Click on bottom left button | Redirection to score/miss goal | Pass |  |
 | Home Page | Click on bottom right button | Redirection to score/miss goal | Pass |  |
 | Home Page | Click on middle button | Redirection to score/miss goal | Pass |  |
+| Home Page | Use site on different devices | Site is responsive on mobile / tablet / desktop | Pass |  |
+| Home Page | Use site on different browsers | Site is accessible on various browsers: Chrome, Firefox, Edge, Brave, Safari | Pass |  |
 
 ## User Story Testing
 
