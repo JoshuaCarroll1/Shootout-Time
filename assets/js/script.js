@@ -33,7 +33,7 @@ playBtn.addEventListener("click", startGame);
 information.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 
-
+/* how to create modals */
 restartBtn.addEventListener('click', function () {
     window.location.reload();
 });

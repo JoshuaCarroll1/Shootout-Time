@@ -103,6 +103,7 @@ button  {
     float: right;
 }
 /* Modal */
+/* how to create modals */
 .modal  {
     position: fixed;
     top: 0;
